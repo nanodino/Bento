@@ -88,12 +88,6 @@ const CONFIG = {
 			link: 'https://kagi.com',
 		},
 	],
-
-	// ┬  ┬┌─┐┌┬┐┌─┐
-	// │  │└─┐ │ └─┐
-	// ┴─┘┴└─┘ ┴ └─┘
-
-	// First Links Container
 	firstlistsContainer: [
 		{
 			icon: 'music',
@@ -112,34 +106,30 @@ const CONFIG = {
 					link: 'https://music.apple.com',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'hearing things',
+					link: 'https://www.hearingthings.co',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'library-big',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: '404 media',
+					link: 'https://www.404media.co',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'hacker news',
+					link: 'https://news.ycombinator.com/news',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'defector',
+					link: 'https://defector.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'cbc',
+					link: 'https://www.cbc.ca',
 				},
 			],
 		},
