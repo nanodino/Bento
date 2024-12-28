@@ -66,59 +66,26 @@ const CONFIG = {
 		{
 			id: '3',
 			name: 'Noteplan',
-			icon: 'trello',
-			link: 'app.noteplan.co',
+			icon: 'notebook-text',
+			link: 'https://app.noteplan.co',
 		},
 		{
 			id: '4',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'SDD',
+			icon: 'train-track',
+			link: 'https://static-data-dashboard.transitapp.com/',
 		},
 		{
 			id: '5',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Logs',
+			icon: 'scroll-text',
+			link: 'https://console.cloud.google.com/logs',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Kagi',
+			icon: 'search',
+			link: 'https://kagi.com',
 		},
 	],
 
@@ -133,15 +100,19 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'navidrome',
+					link: 'https://music.cantu.dev',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'bandcamp',
+					link: 'https://bandcamp.com',
 				},
 				{
-					name: 'Oldies',
+					name: 'apple music',
+					link: 'https://music.apple.com',
+				},
+				{
+					name: 'Rock',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
@@ -169,54 +140,6 @@ const CONFIG = {
 				{
 					name: 'Slack',
 					link: 'https://www.slack.com',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
 				},
 			],
 		},
